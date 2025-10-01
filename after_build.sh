@@ -4,7 +4,6 @@ cp -f "$CURRENT_PROJECT"/bin/Debug/netstandard2.1/TestAccount666."$CURRENT_PROJE
 cp -f "$CURRENT_PROJECT"/README.md BuildOutput/ &&
 cp -f "$CURRENT_PROJECT"/CHANGELOG.md BuildOutput/ &&
 cp -f "$CURRENT_PROJECT"/icon.png BuildOutput/ &&
-cp -rf "$CURRENT_PROJECT"/sounds BuildOutput/ &&
 cp -f LICENSE BuildOutput/ &&
 ./generate_manifest.sh &&
 ./generate_zipfile.sh &&
